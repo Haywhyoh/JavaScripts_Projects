@@ -1,0 +1,31 @@
+#container{
+    width: 275px;
+    height:525px;
+    margin-left:58px;
+    margin-top: 65px;
+    background-color: teal;
+    padding-left: 30px;
+}
+
+#cm{
+    width:150px;
+    height:25px;
+    margin-top:30px;
+}
+
+#kg{
+    width:150px;
+    height:25px;
+    margin-top:30px;
+}
+
+#weightguide{
+    margin-left: 7px;
+    margin-top: 50px;
+}
+
+#result{
+    font-size:35px;
+    margin-left:98px;
+    color: white;
+}
