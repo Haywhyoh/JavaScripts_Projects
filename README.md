@@ -6,5 +6,9 @@ https://devdotcode.com/node-js-redis-complete-api-for-authentication-registratio
 
 https://www.loginradius.com/blog/engineering/guest-post/nodejs-authentication-guide/
 
+Install node on wsl 
+
+https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
+
 - Installed redis
 - create a redis client
