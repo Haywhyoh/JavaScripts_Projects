@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "ioredis": "^5.3.1",
+    "mongoose": "^7.0.3",
     "redis": "^2.8.0",
     "utils": "^0.3.1"
   }
