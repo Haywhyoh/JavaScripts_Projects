@@ -17,7 +17,12 @@ class DBClient {
 
  
     async userCollection() {
-        return this.client.db('userdb').collections('users');
+        return this.client.db('userdb').collection('users');
+    }
+
+    async getUser(username) {
+        return this.client.db('userdb').collection('users').find({username});
+
     }
 }
 
