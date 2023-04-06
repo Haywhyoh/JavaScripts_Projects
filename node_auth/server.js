@@ -10,7 +10,7 @@ connectDb();
 
 app.use('/api/auth', router);
 
-const server = app.listen(PORT, console.log(`App is running at port ${PORT}`))
+const server = app.listen(PORT, console.log(`App is running at port ${PORT}`));
 
 process.on('unhandledRejection', err => {
   console.log(`There is a error: ${err.message}`);
