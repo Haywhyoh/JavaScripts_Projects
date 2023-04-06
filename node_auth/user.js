@@ -4,21 +4,21 @@ const userSchema = new Mongoose.Schema({
   username: {
     type: String,
     required: true,
-    unique: true,
+    unique: true
   },
 
   password: {
     type: String,
     required: true,
-    minLength: 6,
+    minLength: 6
   },
 
   role: {
     type: String,
-    default: "Basic",
+    default: 'Basic',
     required: true
   }
-})
+});
 
-const User = Mongoose.model("user", userSchema);
+const User = Mongoose.model('user', userSchema);
 module.exports = User;
